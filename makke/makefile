@@ -1,10 +1,10 @@
 CC=gcc
 
 hellomake:hellomake.o hellofunc.o
-	gcc -o hellomake hellofunc.o hellomake.o -I/home/godwin_lx/os/makke
+	gcc -o hellomake hellofunc.o hellomake.o -I./home/godwin_lx/os/makke
 
-PHONY:clean
+#PHONY:clean
 
-clean:
-	rm -f ./*.o
+#clean:
+#	rm -f ./*.o
 
